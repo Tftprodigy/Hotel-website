@@ -6,34 +6,37 @@
 }
 
 /* Main Styling */
-html,body{
+html,
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
 
-a{
+a {
     color: #333;
     text-decoration: none;
 
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     padding-bottom: 20px;
 }
 
-p{
+p {
     margin: 10px 0;
 }
 
 /* Utility class*/
-.container{
+.container {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
 }
 
-.btn{
+.btn {
     display: inline-block;
     font-size: 18px;
     color: #fff;
@@ -45,120 +48,120 @@ p{
 
 }
 
-.btn:hover{
+.btn:hover {
     background: #f7c08a;
     color: #333;
 }
 
-.btn-light{
+.btn-light {
     background: #f4f4f4;
     color: #333;
 }
 
-.bg-dark{
+.bg-dark {
     background: #333;
     color: #fff;
 
 }
 
-.bg-light{
+.bg-light {
     background: #f4f4f4;
     color: #333;
 
 }
 
-.bg-primary{
-    background: #333;
-    color: #f7c08a;
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
 }
 
 /* End utility class*/
 
 /* Navbar*/
-.navbar{
-     background: #333;
-     color: #fff;
-     overflow: auto;
+.navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
 }
 
-.navbar a{
+.navbar a {
     color: #fff;
 }
 
-.navbar #logo{
+.navbar #logo {
     float: left;
     padding-top: 20px;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     float: right;
 }
 
-.navbar ul li{
+.navbar ul li {
     float: left;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     display: block;
     padding: 20px;
     text-align: center;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     background: #444;
     color: #f7c08a;
 
 }
 
-.navbar ul li a.current{
+.navbar ul li a.current {
     background: #444;
     color: #f7c08a;
 }
 
 
 /* Showcase */
-#showcase{
-    background: url(../img/showcase.jpg)
-    no-repeat center center/cover;
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
 
     height: 600px;
 }
 
-#showcase .showcase-content{
+#showcase .showcase-content {
     color: #fff;
     text-align: center;
     padding-top: 170px;
 
 }
 
-#showcase .showcase-content h1{
-    font-size:70px;
+#showcase .showcase-content h1 {
+    font-size: 70px;
     line-height: 1.2em;
 
 }
 
-#showcase .showcase-content h1 .text-primary{
-color:#f7c08a ;
+#showcase .showcase-content h1 .text-primary {
+    color: #f7c08a;
 
 }
-.lead{
+
+.lead {
     font-size: 20px;
 }
 
-#showcase .showcase-content p{
+#showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
-     
+
 }
 
 /* Home-info*/
-#home-info{
-  height: 400px;  
+#home-info {
+    height: 400px;
 }
 
 
-#home-info .info-img{
+#home-info .info-img {
     float: left;
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
@@ -166,7 +169,7 @@ color:#f7c08a ;
 
 }
 
-#home-info .info-content{
+#home-info .info-content {
     float: right;
     width: 50%;
     text-align: center;
@@ -175,27 +178,43 @@ color:#f7c08a ;
     overflow: hidden;
 }
 
-.info-content .text-primary{
+.info-content .text-primary {
     color: #f7c08a;
 }
 
-.info-content p{
+.info-content p {
     padding-bottom: 30px;
 }
+
 /* Features/*/
-.box{
+.box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
 
 }
-.box #bell{
-    height: 93px;
+
+.box #bell {
+    height: 96px;
 }
 
 /* Targetting the features icon 
 images to push the H3 down */
-.box img{
+.box img {
     margin-bottom: 10px;
+}
+
+/* footer*/
+.footer #main-footer {
+    background: #444;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    padding-top: 20px;
+
+}
+
+.info .text-primary{
+color: #f7c08a;
 }
