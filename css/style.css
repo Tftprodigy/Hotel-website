@@ -182,3 +182,20 @@ color:#f7c08a ;
 .info-content p{
     padding-bottom: 30px;
 }
+/* Features/*/
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+.box #bell{
+    height: 93px;
+}
+
+/* Targetting the features icon 
+images to push the H3 down */
+.box img{
+    margin-bottom: 10px;
+}
