@@ -48,6 +48,11 @@ p {
 
 }
 
+.text-primary{
+    color: #f7c08a;
+    
+}
+
 .btn:hover {
     background: #f7c08a;
     color: #333;
@@ -250,6 +255,8 @@ images to push the H3 down */
     float: left;
     width: 50%;
     min-height: 100%;
+    background: #f4f4f4;
+    padding: 20px 30px;
 
 }
 
@@ -286,6 +293,33 @@ images to push the H3 down */
     opacity: 0.9;
 
 }
+
+
+/* Contact Form*/
+#contact-form .form-group{
+    margin-bottom: 20px;
+
+}
+
+#contact-form label{
+display: block;
+margin-bottom: 5px;
+
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+
+}
+
+#contact-form
+
 
 
 
