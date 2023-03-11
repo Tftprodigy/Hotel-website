@@ -76,13 +76,21 @@ p {
 }
 
 /* padding Utilities classes*/
-.py-1{ padding: 10px 0; }
-.py-2{ padding: 20px 0; }
-.py-3{ padding: 30px 0; }
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
 
 
 
-.l-heading{
+.l-heading {
     font-size: 40px;
 }
 
@@ -218,7 +226,7 @@ images to push the H3 down */
 
 /* About info/ page*/
 
- #about-info .info-left .text-primary {
+#about-info .info-left .text-primary {
     color: #f7c08a;
 }
 
@@ -238,12 +246,48 @@ images to push the H3 down */
 
 }
 
-#about-info .info-left{
+#about-info .info-left {
     float: left;
     width: 50%;
     min-height: 100%;
 
 }
+
+/* Testimonials on about page*/
+#testimonials {
+    height: 600px;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+
+
+}
+
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+
 
 /* footer*/
 .footer #main-footer {
